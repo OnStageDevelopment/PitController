@@ -1,0 +1,15 @@
+{
+    "network":"mech",
+    "type":"pit",
+    "id":1,
+    "complete_down":0,
+    "complete_up":6,
+    "pit_level":2,
+    "floor_level":5,
+    "stage_level":7,
+    "reversed":"false",
+    "default_speed":32
+}
+
+
+rednet.broadcast('{"id":1,"command":"stage")',"mechnet.pit")
