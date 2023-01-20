@@ -10,6 +10,3 @@
     "reversed":"false",
     "default_speed":32
 }
-
-
-rednet.broadcast('{"id":1,"command":"stage")',"mechnet.pit")
